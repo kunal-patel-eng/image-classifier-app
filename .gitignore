@@ -1,0 +1,36 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+
+# Logs and debugging
+*.log
+
+# OS-specific
+.DS_Store
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Test / data files
+*.csv
+*.json
+*.pkl
+*.pt
+*.h5
+
+# Docker and cloud build
+*.tar.gz
+*.egg-info/
+.dockerignore
+
+# Gradio cache (if any)
+gradio_cached_examples/
+
+# Google Cloud build artifacts
+cloudbuild.yaml
